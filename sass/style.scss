@@ -1,0 +1,551 @@
+/*sass variables*/
+
+$heading: 'Roboto', sans-serif;
+$content: 'Karla', sans-serif;
+$cfBlue: #00AEEE;
+$featureHeadingColor: #716c6c;
+$featureContentColor: #635d5d;
+
+/*common-css*/
+
+a {
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}
+
+.rm-gutterSpace {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.get-chromeExt-btn {
+	background: #FFFFFF;
+    color: rgba(0,0,0,.5);
+    width: 190px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+    box-shadow: inset 6px 6px 36px 0px rgba(0, 0, 0, 0.12);
+    transition: all 0.2s;
+    text-decoration: none;
+    font-family: $content;
+}
+
+.get-chromeExt-btn:hover {
+	box-shadow: inset 190px 6px 36px 0px $cfBlue;
+	transform: scale(1.01);
+	color: #fff;
+}
+
+
+#header-part {
+	background-color: $cfBlue;
+	
+	color: #fff;
+}
+
+
+
+#header-part {
+	.twitter-link {
+		color: #fff;
+	}
+	.twitter-link > span {
+		padding-right: 5px;
+	}
+
+	.header-logo-con {
+		padding: 40px;
+		line-height: 40px;
+		font-family: $heading;
+		font-size: 18px;
+	}
+
+	.logoTop {
+		width: 220px;
+	}
+
+	.header-main-text {
+		margin: 40px 0px;
+		font-family: $heading;
+		font-weight: 400;
+	}
+
+	.header-main-text > a {
+		color: #fff;
+	}
+
+	.header-text-con > h5 {
+		font-family: $content;
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+
+	.video-player {
+		position: relative;
+		top: 200px;
+	}
+}
+
+#vi-introduction {
+	margin-top: 200px;
+}
+
+.vi-feature {
+	margin-top: 100px;
+}
+
+.vi-workflow > h3 {
+	margin: 75px 0;
+}
+
+.vi-feature {
+	.img-con > .feature-name {
+		font-size: 30px;
+		margin-left: 15px;
+		font-family: $heading;
+		font-weight: 700;
+		color: $featureHeadingColor;
+	} 
+
+	.shadow-box {
+		box-shadow: 1px 1px 2px 1px #ddd;
+    	border-radius: 4px;
+    	padding: 1px 12px;
+    	margin: 30px 0;
+	}
+
+	.shadow-box > h4, .vi-btn-try {
+		color: $cfBlue;
+	}
+
+	.vi-btn-try {
+		position: relative;
+	}
+
+	.vi-btn-try:hover > .fa {
+		transform: translate(20px,0);
+	}
+
+	.vi-btn-try > .fa {
+	    position: absolute;
+	    top: 0px;
+	    font-size: 16px;
+	    right: -30px;
+	    transition: all .3s ease-in;
+
+	}
+	h4,h5 {
+		font-family: $heading;
+	}
+
+	.shadow-box > p {
+		font-size: 14px;
+    	line-height: 1.3;
+    	font-family: $content;
+    	color: #635d5d;
+	}
+
+	.feature-note {
+		margin-bottom: 30px;
+		font-weight: 400;
+		color: $featureContentColor;
+	}
+}
+
+#vi-slider {
+	margin: 200px 0;
+	position: relative;
+}
+
+.slider-quotation {
+	position: absolute;
+	top: -70px;
+    left: -30px;
+}
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-image {
+	width: 100%;
+}
+
+#Price-details {
+	background-color: #dddddd5e;
+	padding: 50px 0 100px 0;
+}
+
+/*    Carousel Transition   */
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+
+#quote-carousel .carousel-control.left {
+  left: -12px;
+}
+
+#quote-carousel .carousel-control.right {
+  right: -12px !important;
+}
+
+#quote-carousel .user-img {
+  width: 75px;
+  height: 75px
+}
+
+.carousel-indicators li {
+	border: 1px solid $cfBlue;
+	background-color: $cfBlue;
+	padding: 1px;
+}
+
+.carousel-indicators {
+	bottom: -30px;
+}
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+blockquote p {
+	color: #999;
+}
+
+blockquote small {
+	color: #333;
+}
+blockquote small + a {
+	color: $cfBlue;
+}
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+    
+}
+
+
+
+/*Card Hover  */
+.wrap {
+    margin:50px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    width:100%;
+    height:430px;
+    padding: 25px;
+    background-color:#fff;
+    border: 1px solid #dddddd73;
+    display:inline-block;
+    background-size:cover;
+    position:relative;
+    cursor:pointer;
+    transition: all 0.2s ease-out;
+    z-index: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tile:hover {
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    margin: 0 10px;
+    transform:scale(1.02);
+    z-index: 1;
+}
+
+
+.tile {
+	&:hover .getPlan-btn {
+		background-color: $cfBlue;
+    	color: #fff;
+	}
+	.fa {
+		font-size: 46px;
+		color: $cfBlue;
+	}
+
+	.price {
+		color: $cfBlue;
+		font-size: 20px;
+		margin: 25px 0;
+		font-family: $heading;
+		font-weight: 700;
+	}
+
+	.price > span {
+		color: #ddd;
+		font-size: 12px;
+		font-weight: 400;
+    	margin-left: 5px;
+	}
+
+	.benefit {
+		color: $featureContentColor;
+		font-weight: 400;
+		font-family: $heading;
+	}
+
+	.tile-body {
+		font-family: $content;
+		color: $featureContentColor;
+		margin-top: 30px;
+    	font-size: 14px;
+	}
+
+	.tile-body > li {
+		margin: 10px 0;
+	}
+
+	.getPlan-btn {
+		margin: 18px 0 0 0;
+	    display: inline-block;
+	    padding: 3px 28px;
+	    background-color: #fff;
+	    border: 1px solid $cfBlue;
+	    color: $cfBlue;
+	    font-family: $content;
+	    border-radius: 4px;
+	}
+}
+
+
+/*F.A.Q*/
+
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: transparent;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #fff;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #999;
+        font-size: 18px;
+    }
+
+    .faq-close:after {
+    	content: 'x';
+	    color: #999;
+	    font-family: "Karla", sans-serif;
+	    font-size: 18px;
+	    font-weight: 400;
+	    vertical-align: top;
+	    position: relative;
+    	top: -2px;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    	border: none;
+    }
+
+    #faq {
+    	padding-top: 100px;
+    }
+
+    .faq-box {
+    	background-color: #fff;
+    	box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.14);
+    	border-radius: 4px;
+    	border: 1px solid #dddddd47;
+    }
+
+    .panel-collapse.collapse.in > .panel-body, a[aria-expanded="true"] {
+    	background-color: #dddddd1f;
+    }
+
+    .email-us {
+    	padding: 50px 0;
+    }
+
+
+/*Still Thinking Section*/
+
+#getChrome-ext {
+	background: -webkit-linear-gradient(left, #b7deed 0%, #21b4e2 0%, #6cccee 68%, #71ceef 73%, #b7deed 100%);
+	padding: 60px 0;
+	color: #fff;	
+}
+
+#getChrome-ext {
+	h3 {
+		padding-bottom: 20px;
+	}
+
+	p {
+		padding-bottom: 30px;
+	}
+}
+
+#cf-footer {
+	padding: 40px;
+}
+
+#cf-footer {
+	span, .fa.fa-twitter {
+		color: $cfBlue;
+	}
+}
+
+
+/*VI working Process*/
+
+#vi-working {
+    margin-top: 216px;
+    padding-bottom: 200px;
+}
+
+#vi-working {
+	img {
+		width: 78px;
+		height: 82px;
+	}
+
+	.vi-working-heading {
+		color: $featureHeadingColor;
+	}
+
+	.vi-working-content {
+		color: $featureContentColor
+	}
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .wrap {
+        flex-direction: column;
+    	width:400px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+	#header-part {
+		padding: 0 36px;
+	}
+
+	#header-part {
+		.header-logo-con > div {
+			text-align: center;
+		}
+
+		.video-player {
+			top: 70px;
+		}
+
+		.header-main-text {
+			margin: 20px 0px;
+		}
+	}
+
+	#vi-working {
+		margin-top: 100px;
+		padding-bottom: 0;
+	}
+
+	#vi-working {
+		.vi-workflow > h3 {
+			margin: 40px 0;
+		}
+
+		.vi-working-content {
+			margin-bottom: 20px;
+		}
+
+		.vi-feature {
+			margin-top: 50px;
+		}
+	}
+
+
+	#vi-inspect {
+		margin-top: 50px;
+	}
+
+	#vi-inspect {
+		.feature-img {
+			margin-top: 30px;
+		}
+
+		.feature-note {
+			margin-bottom: 16px;
+		}
+
+		.shadow-box {
+			margin: 10px 0;
+		}
+	}
+
+	#vi-slider {
+		margin: 100px 0;
+	}
+
+	#faq {
+		padding-top: 100px;
+	}
+
+	#cf-footer {
+		.footer-left-area, .footer-right-area {
+			text-align: center;
+		}
+	}
+
+  
+}

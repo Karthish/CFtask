@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="148px" viewBox="0 0 87 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0299999993">
+        <g id="Landing-Page" transform="translate(-453.000000, -6106.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="Testimonial" transform="translate(342.000000, 6106.000000)">
+                <g id="inverted-commas" transform="translate(99.000000, 74.000000) scale(-1, -1) translate(-99.000000, -74.000000) ">
+                    <path d="M0,67.905 L48.024,67.905 C47.203,102.905 37.276,106.878 24.808,108.012 L20,108.608 L20,147.094 L25.542,146.797 C41.823,145.881 59.823,142.946 71.832,128.121 C82.359,115.125 87,93.893 87,61.3 L87,0.905 L0,0.905 L0,67.905 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

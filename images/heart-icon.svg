@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="10px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Love Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-203.000000, -6998.000000)" fill-rule="nonzero" fill="#E62525">
+            <g id="Footer" transform="translate(-3.000000, 6535.000000)">
+                <g id="Down-Text" transform="translate(89.000000, 456.000000)">
+                    <path d="M134.228941,7 C132.185881,7 130.273371,7.92871895 129,9.48477467 C127.726629,7.92871895 125.814119,7 123.771059,7 C120.037503,7 117,10.0495684 117,13.7980723 C117,16.7333051 118.743244,20.1283694 122.181363,23.8889477 C124.82727,26.7830324 127.70553,29.023725 128.524589,29.6415294 L128.999842,30 L129.475042,29.6415824 C130.294207,29.023725 133.172571,26.7829794 135.818426,23.8890536 C139.256703,20.1284753 141,16.733358 141,13.7980723 C141,10.0495684 137.962497,7 134.228941,7 Z" id="Love-Icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
