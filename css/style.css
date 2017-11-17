@@ -354,10 +354,9 @@ blockquote small + a {
 #vi-working .vi-working-content {
   color: #635d5d; }
 
-@media (max-width: 1000px) {
-  .wrap {
-    flex-direction: column;
-    width: 400px; } }
+@media (max-width: 400px) {
+  #header-part .logoTop {
+    width: 150px; } }
 
 @media (max-width: 768px) {
   #header-part {
@@ -385,9 +384,18 @@ blockquote small + a {
     margin-bottom: 16px; }
   #vi-inspect .shadow-box {
     margin: 10px 0; }
+  .wrap {
+    display: block;
+    padding: 0 25px; }
   #vi-slider {
     margin: 100px 0; }
   #faq {
     padding-top: 100px; }
   #cf-footer .footer-left-area, #cf-footer .footer-right-area {
     text-align: center; } }
+
+@media (min-width: 650px) and (max-width: 768px) {
+  .wrap {
+    display: flex; }
+  .wrap .tile {
+    width: 100%; } }
